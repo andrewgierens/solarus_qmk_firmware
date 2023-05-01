@@ -3,20 +3,22 @@
     "keyboard_name": "solarus",
     "maintainer": "Andrew Gierens",
     "bootloader": "rp2040",
+    "processor": "RP2040",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
+        "backlight": false,
         "command": false,
         "console": false,
         "extrakey": true,
         "mousekey": true,
+        "rgblight": false,
         "nkro": true
     },
     "matrix_pins": {
         "cols": ["C2", "C2", "C2", "C2"],
         "rows": ["D1", "D1", "D1", "D1"]
     },
-    "processor": "RP2040",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
