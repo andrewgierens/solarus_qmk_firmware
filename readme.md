@@ -36,11 +36,11 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
 
 ## Solarus todo
-[] Left shift, move left 1px
-[] Enter, move left 1px
-[] Enter, move up 1px
-[] Change to not use SMD diodes for now
-[] Holes for stabilisers
-[] Fix wiring of ENC1
-[] Ensure vias are not close to pin holes
-[] Feet holes / space
+- [ ] Left shift, move left 1px
+- [ ] Enter, move left 1px
+- [ ] Enter, move up 1px
+- [ ] Change to not use SMD diodes for now
+- [ ] Holes for stabilisers
+- [ ] Fix wiring of ENC1
+- [ ] Ensure vias are not close to pin holes
+- [ ] Feet holes / space
