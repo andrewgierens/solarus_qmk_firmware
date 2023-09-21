@@ -18,15 +18,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 bool encoder_update_kb(uint8_t index, bool clockwise) {
     if (index == 0) { /* First encoder */
         if (clockwise) {
-            tap_code(KC_F);
+            tap_code(KC_VOLU);
         } else {
-            tap_code(KC_F);
+            tap_code(KC_VOLD);
         }
     } else if (index == 1) { /* Second encoder */
         if (clockwise) {
-            tap_code(KC_R);
+            tap_code(KC_BRIU);
         } else {
-            tap_code(KC_R);
+            tap_code(KC_BRID);
         }
     }
     return true;
